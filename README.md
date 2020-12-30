@@ -5,8 +5,7 @@
         cd imooc-test-berners
         npm init -y
 
-    创建文件 index.js
-    创建目录 bin
+    创建目录文件 bin/index.js
 
 # 发布包
 
