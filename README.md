@@ -32,11 +32,16 @@
         C:\Program Files\nodejs\node_modules
 
 # 调试
-    1.当前项目根目录下安装脚手架
-        npm install -g imooc-test-berners
-        就可通过 imooc-test-berners 命令调试了
-    2.当前项目根目录输入npm link方式调试
+    1.当前项目根目录输入npm link,注册当前包的全局链接地址
         npm link
+        npm unlink imooc-test-berners 解除link
 
-        npm unlink imooc-test-berners 移除link
+# 理解 npm link
+    npm link：在库文件项目根目录中，将当前库文件项目链接到node全局mode_modules中，作为一个库文件
+    npm link 包名：在使用库文件的项目中，指定某个库文件链接到node全局node_modules下的库文件，并解析 bin 配置创建可执行文件
+    
+
+# 理解 npm unlink
+    npm unlink：在库文件根目录中，将注册链接，从 node 全局 node_modules中移除
+    npm unlink 包名：在使用库文件的项目中移除对库文件的依赖
     
