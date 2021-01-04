@@ -35,8 +35,14 @@
     1.当前项目根目录下安装脚手架
         npm install -g imooc-test-berners
         就可通过 imooc-test-berners 命令调试了
-    2.当前项目根目录输入npm link方式调试
+    2.当前项目根目录输入npm link方式调试(开发脚手架时使用)
         npm link
 
         npm unlink imooc-test-berners 移除link
+
+# 解析参数
+
+    // 注册一个命令 imooc-test-berners init
+
+    // 实现参数解析 --version 和 init --name
     
