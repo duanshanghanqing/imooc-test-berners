@@ -55,4 +55,11 @@
     // 注册一个命令 imooc-test-berners init
 
     // 实现参数解析 --version 和 init --name
+
+# 安装 yargs
+
+    npm i yargs -S
+
+# 安装 dedent
+    npm install dedent -S
     
