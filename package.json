@@ -15,6 +15,7 @@
   "dependencies": {
     "commander": "^7.0.0",
     "dedent": "^0.7.0",
+    "ejs": "^3.1.6",
     "yargs": "^16.2.0"
   }
 }
