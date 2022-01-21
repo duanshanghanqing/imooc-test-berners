@@ -1,3 +1,15 @@
+# 开发
+    
+    添加软连接[全局命令]
+        
+        npm link
+
+        cmd 命令行执行 imooc-test-berners 命令
+
+    移除软连接[全局命令]
+
+        npm unlink imooc-test-berners
+
 # 创建一个脚手架
 
     创建目录

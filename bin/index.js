@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-<<<<<<< HEAD
-require("./ejs");
-=======
+console.log('welcome imooc-test-berners');
+
+// require("./ejs");
+
 // 如何让 node 支持ES Module
 // 模块化
 // CMD/AMD/require.js
@@ -17,5 +18,5 @@ require("./ejs");
 
 // require('./process');
 
-require('./inquirer');
->>>>>>> efac5067960f692362ebdab54eac636c8c6c615f
+// require('./inquirer');
+
